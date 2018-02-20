@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #935d8c;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: 'Source Sans Pro';
+  background-image: url("../img/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  background-image: url("../img/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  background-image: url("../img/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  background-image: url("../img/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    line-height: 50px;
+}
+.txttgh{
+  text-align: center;
+}
+.loginbox {
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+body.loginpage::before{
+  display: block;
+  content: '';
+  height: 50vh;
+}
+.grup-item{
+  padding: 0 50px;
+}
+.loginform input {
+  background: transparent;
+  color: #fff;
+  margin: 0 auto;
+    border: 0;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    padding: 0 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.loginform input:focus{
+  outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 0.7em 0;
+    letter-spacing: -0.025em;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
